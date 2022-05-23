@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    min-height: 100vh;
+}
+
+.nuevo-chat{
+    padding: 1.6em 3.5em;
+    border-bottom: 2px solid #BEC1BB;
+    display: flex;
+}
+.nuevo-chat>button{
+    padding: 1em;
+    font-size: large;
+    background-color: #A491D2;
+    color: white;
+    border: 0px;
+    border-radius: 1px;
+    flex-grow: 1;
+}
+
+.chat-item{
+    display: flex;
+    padding: 1em;
+    border-bottom: 2px solid #BEC1BB;
+    align-items: center;
+}
+
+.chat-item>div>i{
+    padding:0.2em;
+    color: #828485;
+}
+
+.chat-item>img{
+    margin-left: 2em;
+    width: 4em;
+    height: 4em;
+    border-radius: 5em;
+}
+
+.chat-item-body{
+    flex-grow: 1;
+    padding-left: 1em;
+}
+.chat-item-body>h3{
+    font-size: large;
+    padding:0em 0em .4em;
+    color: #444749;
+    font-weight: 500;
+}
+.chat-item-body>p{
+    font-size: medium;
+    color: #444749;
+}
+
+.chat-item-body>h3, .chat-item-body>p{margin:0px;}
+
+.flex-networking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 2px solid #BEC1BB;
+    min-width: 74em;
+    width: 85%;
+    background-color: #eff0ed78;
+}
+
+.flex-networking>img{
+    width: 20em;
+}
+
+.flex-networking>h1{
+    font-weight: normal;
+    font-size: xxx-large;
+    margin-top: 0.8em;
+}
+.flex-networking>p{
+    width: 30em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.chat-active>img{
+    width: 3em;
+    height: 3em;
+}
+.chat-active>.chat-item-body>p{
+    font-size: small;
+    color: #828485;
+}
